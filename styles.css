@@ -1,34 +1,100 @@
-*,
-ul {
-    
+*  {    
     /*Troubleshooting CSS 
     outline: 1px dotted red; */ 
     margin:0;
     padding:0;
 }
 
-ul {
+ul  {
     list-style-type: none;
+    margin:0;
+    padding:0;
+}
+
+p  {
+    font-size: 14px;
+    margin:0;
+    width: 350px;
+
+}
+
+.hero-text  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0px;
+}
+
+.para-two  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:200px;
+}
+
+.hero-container {
+    display:flex;
+    justify-content:space-around;
+    padding-bottom: 100px;  
+        
+}
+
+.button  {
+    background-color:#3882F6;
+    border: none;
+    color: white;
+    padding: 5px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px; 
+    font-weight: bold;   
+    cursor: pointer;      
+}
+
+.button-one  {
+    border-radius: 5px;
+    padding-block: 10px; 
+    margin-top: 10px;
+}
+
+.title  {
+    font-weight: bold;
+    font-size:120%;
+    width: 200px;
+    height: 30px;
+    text-align: center;
+
 }
 
 .navbar,
 .navbar-links,
-.navbar-logo {
+.navbar-logo  {
     display:flex;
     gap:20px;
-    justify-content: space-between;
-    padding:10px 80px 50px 50px;   
+    justify-content: space-around;
+    padding:10px 50px 50px 50px;   
 }
 
-.navbar-links {
-    margin:
+.placeholder  {
+    background-color: #7a7a7a;
+    width:400px;
+    height:200px;
+    margin-right: 100px;
+}
+
+.para-one  {
+    margin-right: 250px;
+    
 }
 
 .navbar,
-.hero {
+.hero,
+.hero-container  {
     background-color:#1f2937;
     color: #fff;
     font-family: Arial, Helvetica, sans-serif;
+    padding:10px 0px 100px 0px;
 }
 
 
