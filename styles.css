@@ -1,35 +1,87 @@
-*  {    
+*,
+ul {    
     /*Troubleshooting CSS 
     outline: 1px dotted red; */ 
     margin:0;
     padding:0;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-ul  {
+ul {
     list-style-type: none;
-    margin:0;
-    padding:0;
 }
 
-p  {
+p {
     font-size: 14px;
-    margin:0;
-    width: 350px;
-
+    margin:0;    
 }
 
-.hero-text  {
-    display: flex;
-    justify-content: center;
+h1 {
+    font-size:48px;
+    font-weight: bolder;
+    width:350px;
+}
+
+.carousel-container-grid {
+    display: flex;  
+    flex-direction: row;
+    padding: 20px;    
+    gap:30px;
+    justify-content: center;   
     align-items: center;
-    padding: 10px 0px;
 }
 
-.para-two  {
+.temp {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 50px;
+  text-align: center;
+  place-self: center;
+  width:100px;
+  height:100px;
+  border-radius: 10px; 
+  border-style: solid;
+  border-color: #3882F6;
+}
+
+.carousel-text-grid {
+    display: flex;  
+    flex-direction:row;
+    justify-content: center;       
+    align-items: center;
+    gap:30px;
+    padding-bottom:50px;   
+}
+
+.img-txt {
+    display: flex;  
+    flex-direction:row;
+    justify-content: center;       
+    align-items: center;
+    width:200px;     
+}
+
+.hero-text,
+.carousel-title,
+.testimonial-container {
+    display: flex; 
+    justify-content: center;   
+    align-items: center;
+    padding: 20px 0px;
+}
+
+.para-two {
     display: flex;
     justify-content: center;
     align-items: center;
     height:200px;
+}
+
+.carousel-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:100px;
+    height:100px;
 }
 
 .hero-container {
@@ -39,7 +91,7 @@ p  {
         
 }
 
-.button  {
+.button {
     background-color:#3882F6;
     border: none;
     color: white;
@@ -52,72 +104,68 @@ p  {
     cursor: pointer;      
 }
 
-.button-one  {
+.button-one {
     border-radius: 5px;
     padding-block: 10px; 
     margin-top: 10px;
 }
 
-.title  {
+.title {
     font-weight: bold;
     font-size:120%;
     width: 200px;
     height: 30px;
     text-align: center;
-
 }
 
 .navbar,
 .navbar-links,
-.navbar-logo  {
+.navbar-logo {
     display:flex;
     gap:20px;
     justify-content: space-around;
     padding:10px 50px 50px 50px;   
 }
 
-.placeholder  {
+
+.placeholder {
     background-color: #7a7a7a;
     width:400px;
-    height:200px;
-    margin-right: 100px;
+    height:200px;    
 }
 
-.para-one  {
-    margin-right: 250px;
-    
+.para-one {
+    margin-right:250px;    
 }
 
 .navbar,
-.hero,
-.hero-container  {
+.hero-container {
     background-color:#1f2937;
     color: #fff;
     font-family: Arial, Helvetica, sans-serif;
-    padding:10px 0px 100px 0px;
+    /*padding:10px 0px 100px 0px;*/
 }
 
-
+.testimonial-container {
     
- /*Troubleshooting CSS  
-.navbar,
-.navbar-logo {    
-       
-    background: yellow;
+    background-color:#e5e5e4;
+    padding:100px 0px; 
 }
 
-.navbar-left {   
-       
-    background: rgb(222, 222, 202);
+.quotation {
+    display: flex;
+    flex-direction: row;
 }
 
-.navbar-logo {
-    
-}
-
-.navbar,
-.navbar-links {
+.quote-txt  {
     display:flex;
-
+    justify-content: space-around;
+    padding:0px 50px 50px 50px;
+    width:800px;
+    font-size:36px; 
+    font-style:italic;
 }
-*/
+
+.quote-name {
+    align-self: flex-end;
+}
