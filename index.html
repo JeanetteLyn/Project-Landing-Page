@@ -9,94 +9,74 @@
 
 <body>
     <!--Navbar-->
-    <header class="navbar">
-        <div class="navbar-left">
-            <div class="navbar-logo">
-                <p class="title para-one">HEADER LOGO</p>
-            </div>
-        </div>
-        <div class="navbar-right">
-            <ul class="navbar-links">
-                <li class="links-one">Header Link One</li>
-                <li class="links-two">Header Link Two</li>
-                <li class="links-three">Header Link Three</li>
+    <nav class="navbar">
+        <div class="container">
+            <div class="navbar-logo">HEADER LOGO</div>        
+            <ul class="navbar">
+                <a href="links">Header Link One</a>
+                <a href="links">Header Link Two</a>
+                <a href="links">Header Link Three</a>
             </ul>
-        </div>
-    </header>
+        </div>        
+    </nav>
 
     <!--Hero section-->
-    <div class="hero-container">
-        <div class="hero-content">
-            <div class="hero-title">
-                <h1>This website is awesome</h1>
-                
+    <header class="hero-section">
+        <div class="container">
+            <h1>This website is awesome</h1>
+            <p>This website has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast</p>
+            <button class="button button-one">Sign up</button>
+            <div class="hero-img-box">
+                <div class="placeholder">Placeholder</div>
             </div>
-            <div class="hero-text">
-                <p>This website has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast</p>
-            </div>
-            <div class="hero-button">
-                <button class="button button-one">Sign up</button>
-            </div> 
-        </div>
-        <div class="hero-img">
-            <div class="placeholder">
-            <p class="para-two">this is a placeholder for an image</p>
-            </div>
-        </div>
-    </div>
+        </div> 
+    </header>
 
     <!--Image carousel section-->
-    <div class="carousel-container">
-        <div class="carousel-title">
-            <h2>Some random information</h2>
+    <section class="carousel">
+        <h2>Some random information</h2>
+        <div class="image-boxes">
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
         </div>
-            <div class="carousel-container-grid">
-                <div class="temp img-one"></div>
-                <div class="temp img-two"></div>
-                <div class="temp img-three"></div>
-                <div class="temp img-four"></div>
-            </div>
-
-            <div class="carousel-text-grid">
-                <p class="img-txt">this is some subtext under an illustration or image</p>
-                <p class="img-txt">this is some subtext under an illustration or image</p> 
-                <p class="img-txt">this is some subtext under an illustration or image</p> 
-                <p class="img-txt">this is some subtext under an illustration or image</p>                         
-            </div>
+        <div class="text-boxes">
+            <p class="box-text">this is some subtext under an illustration or image</p>
+            <p class="box-text">this is some subtext under an illustration or image</p> 
+            <p class="box-text">this is some subtext under an illustration or image</p> 
+            <p class="box-text">this is some subtext under an illustration or image</p>                         
+        </div>
+    </section>
 
     <!--Testimonial section-->
-    <div class="testimonial-container">
-        <blockquote class="quotation">
+    <section class="testimonial">
+        <div class="container">
+            <blockquote class="quotation">
             <p class="quote-txt">This is an inspiring quote, or testimonial from a customer. Maybe it's just filling up space, or maybe people will actually read it. Who knows? All I know is that it looks nice.</p>
             <footer class="quote-name"> -Thor, God of Thunder</footer>
-        </blockquote>
-        
-    </div>
+            </blockquote>
+        </div>
+    </section>
 
     <!--Call to action section-->
-    <div class="cta-section">
-        <div class="cta-container">
-            <div class="cta-subtitle">
-                <h3>Call to action! It's time!</h3>
-            </div>
-            <div class="cta-text">
-                <p>Sign up for our product by clicking that button right over there!</p>
-            </div>
+    <section class="cta-section">
+        <div class="container">
+            <h3>Call to action! It's time!</h3>
+            <p>Sign up for our product by clicking that button right over there!</p>
             <div class="cta-button">
-                <button type="button">Sign up</button>
+            <button type="button">Sign up</button>
             </div>
         </div>
-    </div>
+    </section>
 
     <!--Footer-->
-    <div class="footer container">
-        <div class="footer copyright">
-            <p>Copyright</p>
-        </div>
-        <div class="footer company">
+    <footer class="footer">
+        <div class="container">
+            <p>Copyright ©</p>
             <p>The Odin Project 2024</p>
         </div>
-    </div>
+    </footer>
 
 </body>
 </html>
